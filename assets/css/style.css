@@ -135,6 +135,10 @@ header nav ul li a {
     justify-content: center;
 }
 
+.work a {
+    color: var(--clr-dark);
+}
+
 .work-main {
     height: 50vh;
     width: 100%;
