@@ -126,6 +126,7 @@ header nav ul li a {
 /* work section start */
 .work {
     padding: 10px;
+    padding-bottom: 10vh;
 }
 
 .work-section {
@@ -142,6 +143,12 @@ header nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    opacity: 25%;
+    transition: opacity 500ms;
+}
+
+.work-main:hover {
+    opacity: 100%;
 }
 
 .work-secondary {
@@ -152,6 +159,24 @@ header nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    opacity: 25%;
+    transition: opacity 500ms;
+}
+
+.work-secondary:hover {
+    opacity: 100%;
+}
+
+.run-buddy {
+    background-image: url(./../images/web-dev-pic.jpeg);
+}
+
+.jon-bellion {
+    background-image: url(./../images/web-dev-pic.jpeg);
+}
+
+.robot-gladiator {
+    background-image: url(./../images/web-dev-pic.jpeg);
 }
 
 .work h3 {
@@ -162,12 +187,59 @@ header nav ul li a {
     padding: 5px;
     color: var(--clr-dark);
 }
+
+@media screen and (max-width: 1080px) {
+    .work-main {
+        height: 50vh;
+        width: 100%;
+        border: 3px solid var(--clr-acct-main);
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        opacity: 100%;
+    }
+    
+    .work-secondary {
+        border: 3px solid var(--clr-acct-main);
+        height: 25vh;
+        width: 40%;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        opacity: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .work-main {
+        height: 30vh;
+        width: 100%;
+        border: 3px solid var(--clr-acct-main);
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    .work-secondary {
+        border: 3px solid var(--clr-acct-main);
+        height: 25vh;
+        width: 40%;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
 /* work section end */
 
 /* contact section start */
 .contact-section {
    background-color: var(--clr-light);
    padding: 10px;
+   padding-bottom: 10vh;
 }
 
 .contact-section p {
