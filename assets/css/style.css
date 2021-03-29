@@ -23,6 +23,7 @@ a {
     color: var(--clr-light);
 }
 
+/* header start */
 header {
     padding: 20px 35px;
     background-color: var(--clr-dark-acct);
@@ -66,7 +67,9 @@ header nav ul li a {
     font-weight: lighter;
     text-shadow: 5px 5px 5px rgba(0,0,0,0.75);
 }
+/* header end */
 
+/* hero start */
 .hero {
     background-image: url(./../images/2070527.jpg);
     background-size: cover;
@@ -78,7 +81,9 @@ header nav ul li a {
     margin: 20px auto;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.75);
 } 
+/* hero end */
 
+/* about me start */
 .section-title {
     font-size: 2rem;
     text-align: center;
@@ -90,6 +95,7 @@ header nav ul li a {
     text-shadow: 5px 5px 5px rgba(0,0,0,0.75);
     font-weight: lighter;
 }
+
 
 .bio-div {
     display: flex;
@@ -115,6 +121,12 @@ header nav ul li a {
     padding: 1rem;
     border: 2px solid var(--clr-acct-main);
 }
+/* about me end */
+
+/* work section start */
+.work {
+    padding: 10px;
+}
 
 .work-section {
     display: flex;
@@ -124,9 +136,9 @@ header nav ul li a {
 
 .work-main {
     height: 50vh;
-    width: 50%;
+    width: 100%;
     border: 3px solid var(--clr-acct-main);
-    margin: 20px;
+    margin: 20px 30%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -149,4 +161,35 @@ header nav ul li a {
     height: fit-content;
     padding: 5px;
     color: var(--clr-dark);
+}
+/* work section end */
+
+/* contact section start */
+.contact-section {
+   background-color: var(--clr-light);
+   padding: 10px;
+}
+
+.contact-section p {
+    color: var(--clr-dark);
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.contact-section a {
+    text-decoration: underline;
+    color: var(--clr-dark);
+    font-size: 1.2rem;
+}
+
+.contact-section span {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.secondary {
+    color: var(--clr-dark);
+    border-color: var(--clr-dark);
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
