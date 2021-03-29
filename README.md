@@ -10,4 +10,4 @@ A professional portfolio to display the websites I create for future employers t
 * CSS
 
 ## Website
-https://github.com/kotaewing/dakota-ewing-portfolio
+https://kotaewing.github.io/dakota-ewing-portfolio/
