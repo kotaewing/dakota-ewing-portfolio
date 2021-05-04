@@ -171,8 +171,10 @@ header nav ul li a {
     opacity: 100%;
 }
 
-.run-buddy {
-    background-image: url(./../images/web-dev-pic.jpeg);
+.my-garden {
+    background-image: url(./../images/my-garden-screenshot.PNG);
+    background-position: center;
+    background-size: 100%;
 }
 
 .jon-bellion {
